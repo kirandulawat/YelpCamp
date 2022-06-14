@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@600&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Archivo', sans -serif;
+
+}
+
+/* .container { */
+/* height: 100vh; */
+/* } */
+.index {
+
+    display: inline-block;
+    /* float: left; */
+    width: 60%;
+    padding: 50px;
+    /* height: 300px; */
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.index1 {
+    float: right;
+    width: 40%;
+    background-color: #f5f2ee;
+    height: 100vh;
+    padding: 20px;
+
+}
+
+.index1 p {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 200px;
+    line-height: 44px;
+}
+
+.index p {
+    text-align: right;
+    color: black;
+}
+
+input {
+
+    width: 75%;
+    height: 40px;
+    padding: 10px;
+    background-color: #f5f2ee;
+    border: none;
+}
+
+
+
+
+
+.btn {
+
+    border-color: black;
+    color: white;
+    height: 40px;
+    width: 75%;
+    background-color: black;
+
+}
+
+.testimonial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30
+}
+
+h5 {
+
+    margin-left: 10px;
+}
+
+@media (max-width: 1024px) {
+    .index1 p {
+        font-size: 20px;
+        margin-top: 100px;
+
+    }
+
+
+
+}
+
+@media (max-width: 768px) and (min-width:530px) {
+    .index1 {
+        float: unset;
+        width: 100%;
+        height: auto;
+    }
+
+    .index {
+        width: 100%;
+    }
+
+    .index1 .testimonial {
+        justify-content: left;
+    }
+
+
+    .index1 p {
+        margin-top: 10px;
+        text-align: unset;
+    }
+}
+
+@media (max-width:530px) and (min-width:320px) {
+
+    .index1 {
+        float: unset;
+        width: 100%;
+        height: auto;
+
+    }
+
+    .index {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .index1 .testimonial {
+        justify-content: left;
+    }
+
+    .index input {
+        width: 100%
+    }
+
+    .index .btn {
+        width: 100%;
+    }
+
+    .index1 p {
+        line-height: normal;
+        text-align: unset;
+        margin-top: 10px;
+    }
+
+    .nav {
+        font-size: 12px;
+    }
+
+
+
+
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
